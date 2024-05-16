@@ -1,14 +1,13 @@
 const utente = Number.parseInt(prompt('Scrivi un numero da 1 a 5'))
-const macchina = (macchinaRandom)
 
-somma (utente, macchina)
-
+const macchina = macchinaRandom(1, 5)
 function macchinaRandom (min, max) {
     return Math.round(Math.random() * (max - min + 1) + min);
 }
 
-function somma (var1, var2) {
-    return var1 + var2;
+somma (utente, macchina)
+function somma(valore1, valore2) {
+    return valore1 + valore2;
 }
 
 if (utente === 2 % 0) {
