@@ -13,8 +13,10 @@ PSEUDOCODICE
 Crea due variabili
 1. L'utente inserisce nel prompt numero da 1 a 5.
 2. La macchina genera numero random da 1 a 5.
-    - Per la macchina usare funzione random per generare numero.
+    - Usare funzione random per generare numero.
 
 3. Somma le due variabili.
-    - Se somma è pari, vince macchina
+    - Creare funzione ch somma le due variabili e poi invocarla.
+
+4. Se somma è pari, vince macchina
     - Se somma è dispari, vince utente
