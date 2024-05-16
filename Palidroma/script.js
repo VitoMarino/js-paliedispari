@@ -16,7 +16,6 @@ if (prova === reversedProva) {
 }
 
 const utente = prompt('Scrivi una parola');
-
 let verifica = palindroma(utente);
 console.log(utente);
 
