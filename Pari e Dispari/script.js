@@ -5,13 +5,15 @@ function macchinaRandom (min, max) {
     return Math.round(Math.random() * (max - min + 1) + min);
 }
 
-somma (utente, macchina)
+let somme = somma(utente, macchina)
 function somma(valore1, valore2) {
     return valore1 + valore2;
 }
 
-if (utente === 2 % 0) {
+if (somme % 2 === 0) {
     console.log('macchina:' + macchina, 'utente:' + utente, 'HA VINTO UTENTE!!');
-} else if (macchina === 2 % 1) {
+} else if (somme % 2 === 1) {
     console.log('macchina:' + macchina, 'utente:' + utente, 'HA VINTO MACCHINA!!');
 }
+
+// quando chiamo RETURN allora devo mettere il risultato in una variabile

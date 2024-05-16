@@ -5,3 +5,7 @@ Creare una funzione per capire se la parola inserita è palindroma
 Consigli del giorno
 Scriviamo sempre in italiano i passaggi che vogliamo fare
 Scriviamo sempre solo un pezzetto di codice alla volta, se funziona allora andiamo avanti.
+
+PSEUDOCODICE 
+1. Chedi con propmt a utente di inserire parola. 
+2. Crea funzione
